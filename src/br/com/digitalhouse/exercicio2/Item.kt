@@ -6,11 +6,13 @@ class Item(var nItemFaturado: Int, var descricaoItem: String, var qtdItemComp: I
         when {
             qtdItemComp < 0 -> {
                 qtdItemComp = 0
-                println("Quantindade de item foi reconfigurada para: $qtdItemComp")
+                println("Quantindade do item $descricaoItem foi reconfigurada para: $qtdItemComp")
+                println(---------------------------------------------------------------------------------------->)
             }
             precoUnItem < 0 -> {
                 precoUnItem = 0.0
-                println("Preço Unitário de item foi reconfigurado: $precoUnItem")
+                println("Preço Unitário do item $descricaoItem foi reconfigurado: $precoUnItem")
+                println(---------------------------------------------------------------------------------------->)
             }
         }
     }
