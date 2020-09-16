@@ -13,5 +13,4 @@ class Fatura(var itens: MutableList<Item>) {
         return totalFatura
     }
 
-
 }
