@@ -9,5 +9,5 @@ fun main(){
     println(estoque1.precisaRepor())
     estoque1.repor(10)
     estoque1.mudarQtdMinima(2)
-
 }
+

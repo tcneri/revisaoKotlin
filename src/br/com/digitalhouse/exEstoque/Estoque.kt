@@ -1,4 +1,4 @@
-package br.com.digitalHouse.controleEstoque
+package br.com.digitalhouse.exEstoque
 
 class Estoque(var nome: String = "", var qtdAtual: Int = 0, var qtdMinima: Int = 0) {
     init{
