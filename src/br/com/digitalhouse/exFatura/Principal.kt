@@ -1,4 +1,4 @@
-package br.com.digitalhouse.exercicio2
+package br.com.digitalhouse.exFatura
 
 fun main(){
     val item1 = Item(11,"sapato",-1,55.0)

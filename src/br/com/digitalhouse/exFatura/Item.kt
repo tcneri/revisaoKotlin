@@ -1,4 +1,4 @@
-package br.com.digitalhouse.exercicio2
+package br.com.digitalhouse.exFatura
 
 class Item(var nItemFaturado: Int, var descricaoItem: String, var qtdItemComp: Int, var precoUnItem: Double) {
 

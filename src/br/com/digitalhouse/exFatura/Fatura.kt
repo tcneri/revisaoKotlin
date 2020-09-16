@@ -1,4 +1,4 @@
-package br.com.digitalhouse.exercicio2
+package br.com.digitalhouse.exFatura
 
 class Fatura(var itens: MutableList<Item>) {
 
